@@ -5,8 +5,8 @@
  int encoder0Pos = 0;
 
 void setup() {
-  pinMode(encoder0PinA, INPUT);
-  pinMode (encoder0PinB,INPUT);
+  pinMode(encoder0PinA, INPUT_PULLUP);
+  pinMode (encoder0PinB,INPUT_PULLUP);
 
   //MsTimer2::set(100, swInterrupt);
   //MsTimer2::start();
